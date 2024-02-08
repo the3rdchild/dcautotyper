@@ -1,0 +1,17 @@
+{
+  "name": "bot",
+  "version": "1.3.0",
+  "description": "She can ruin your life",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "keywords": [
+    "Bot Discord Auto Typing"
+  ],
+  "author": "anakketiga3",
+  "license": "Apache-2.0d",
+  "devDependencies": {
+    "@types/punycode": "^2.1.3"
+  }
+}

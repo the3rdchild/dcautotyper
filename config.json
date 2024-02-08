@@ -1,0 +1,38 @@
+{
+"settings": {
+    "times": {
+        "enable": true,
+        "intervals": {
+            "kata1": 60293,
+            "kata2": 225508,
+            "kata3": 44104,
+            "kata4": 10104,
+            "kata5": 10104,
+            "phrases": 10104
+        }
+    },
+
+    "typingindicator": "true", 
+    "phrases": "true",       
+    "kata1": "true",
+    "kata2": "true",
+    "kata3": "false",
+    "kata4": "false",
+    "kata5": "false",
+
+    "kata": {
+        "kata1": ".tg train",
+        "kata2": ".fish",
+        "kata3": ".slot",
+        "kata4": "ok ",
+        "kata5": " "
+        }
+    },
+
+    "main": {
+        "token": "", 
+        "userid": "",
+        "channelid": "" 
+    }
+ }
+
