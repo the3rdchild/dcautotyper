@@ -19,7 +19,7 @@
 ---------------------------------------
 
 ## HOW TO GET TOKEN ID:
-
+use console web
 ```js
 (webpackChunkdiscord_app.push([
     [""],
@@ -34,34 +34,3 @@ m)
     .exports.default.getToken();
 ```
 
---------------------------------------- 
-## CHANGELOG
-
-1. Make the code more simple (removing repetitions)
-2. Add Fn functions:
-```js
-const functions = [
-        { fn: kata1, delay: 1000, enabled: settings.kata1 === "true" },
-        { fn: kata2, delay: 3000, enabled: settings.kata2 === "true" },
-        { fn: kata3, delay: 7000, enabled: settings.kata3 === "true" },
-        { fn: kata4, delay: 10000, enabled: settings.kata4 === "true" },
-        { fn: kata5, delay: 13000, enabled: settings.kata5 === "true" },
-        { fn: phrases, delay: 16000, enabled: settings.phrases === "true" }
-    ];
-```
-3. Make the interval time in config.js more simple:
-```js
-"settings": {
-    "times": {
-        "enable": true,
-        "intervals": {
-            "kata1": 60293,
-            "kata2": 225508,
-            "kata3": 44104,
-            "kata4": 10104,
-            "kata5": 10104,
-            "phrases": 10104
-        }
-    }
-}
-```
