@@ -7,7 +7,7 @@ let maintoken = config.main.token;
 let settings = config.settings;
 let mainchannelid = config.main.channelid;
 
-console.log(chalk.bgWhite.red.bold(" Opened Socket Client ⚔️  "));
+console.log(chalk.bgWhite.red.bold(" Opened Socket Client "));
 
 //----------------------------------------------------Check Main Token----------------------------------------------------//
 request.get(
@@ -126,23 +126,23 @@ function sendKata(token, _tokentype, channelid, kataNumber, chalkColor, emoji) {
 }
 
 function kata1(token, _tokentype, channelid) {
-    sendKata(token, "Main Token", channelid, 1, chalk.black, "1️⃣");
+    sendKata(token, "Main Token", channelid, 1, chalk.black, "1️");
 }
 
 function kata2(token, _tokentype, channelid) {
-    sendKata(token, "Main Token", channelid, 2, chalk.blue, "2️⃣");
+    sendKata(token, "Main Token", channelid, 2, chalk.blue, "2️");
 }
 
 function kata3(token, _tokentype, channelid) {
-    sendKata(token, "Main Token", channelid, 3, chalk.cyan, "3️⃣");
+    sendKata(token, "Main Token", channelid, 3, chalk.cyan, "3️");
 }
 
 function kata4(token, _tokentype, channelid) {
-    sendKata(token, "Main Token", channelid, 4, chalk.cyan, "4️⃣");
+    sendKata(token, "Main Token", channelid, 4, chalk.cyan, "4️");
 }
 
 function kata5(token, _tokentype, channelid) {
-    sendKata(token, "Main Token", channelid, 5, chalk.cyan, "5️⃣");
+    sendKata(token, "Main Token", channelid, 5, chalk.cyan, "5️");
 }
 
 function phrases(token, tokentype, channelid, _phrasesFilePath) {
@@ -190,7 +190,7 @@ function phrases(token, tokentype, channelid, _phrasesFilePath) {
                         chalk.red(
                             `${new Date().getHours()}:${new Date().getMinutes()}:${new Date().getSeconds()}`
                         ) +
-                            chalk.white.bold(" Phrases 🅿️")
+                            chalk.white.bold(" Phrases")
                     );
                 }
                 
