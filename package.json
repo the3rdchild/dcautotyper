@@ -9,7 +9,7 @@
   "keywords": [
     "Bot Discord Auto Typer"
   ],
-  "author": "anakketiga3",
+  "author": "the3rdchild",
   "license": "Apache-2.0d",
   "devDependencies": {
     "@types/punycode": "^2.1.3"
