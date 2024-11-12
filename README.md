@@ -27,7 +27,7 @@ npm install
 node bot.js
 ```
 
-## HOW TO GET TOKEN ID:
+## How to Get Your Token ID:
 To retrieve your Discord token, you can use the following script in your browser’s developer console:
 
 ```js
