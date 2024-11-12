@@ -13,23 +13,24 @@
 - Discord-Compatible: Works with the Discord application to simulate message sending within a server.
 
 ## Usage
+1. Clone the repository:
+```git
+git clone https://github.com/the3rdchild/dcautotyper.git
+```
 
-> npm install
+2. Install dependencies:
+```
+npm install
+```
 
-> node bot.js
-
-
-
-## Features
-
-1. TIMER
-2. TYPE INDICATOR
-3. 5 WORDs (You can add more function to add more word/cycle)
-4. Phrase (Random Word Generator)
-
+3. Run the bot:
+```node
+node bot.js
+```
 
 ## HOW TO GET TOKEN ID:
-use console web
+To retrieve your Discord token, you can use the following script in your browser’s developer console:
+
 ```js
 (webpackChunkdiscord_app.push([
     [""],
@@ -43,4 +44,6 @@ m)
     .find((m) => m?.exports?.default?.getToken !== void 0)
     .exports.default.getToken();
 ```
+Note: Use your token responsibly and be aware of Discord’s guidelines on bot usage. Misuse of your token can lead to account suspension.
+
 
