@@ -6,6 +6,12 @@
 </div>
 ---------------------------------------
 
+## Key Features
+- Automated Message Sending: DCAutoTyper allows users to send pre-set messages automatically, making it perfect for reminders or routine updates.
+- Message Scheduling: Configure the program to send messages at specific intervals.
+- Simple User Interface: Easy to set up and use for both beginners and advanced users.
+- Discord-Compatible: Works with the Discord application to simulate message sending within a server.
+
 ## Usage
 
 > npm install
@@ -21,7 +27,6 @@
 3. 5 WORDs (You can add more function to add more word/cycle)
 4. Phrase (Random Word Generator)
 
----------------------------------------
 
 ## HOW TO GET TOKEN ID:
 use console web
