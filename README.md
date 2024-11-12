@@ -1,16 +1,18 @@
 ## <div align="center">DCAutoTyper</div>
+---------------------------------------
 </div>
 <div align="center">
 <a href="https://github.com/the3rdchild/dcautotyper">DCAutoTyper</a> is an automation program that enables users to send messages periodically or automatically to communication apps like Discord. This tool is ideal for users who want to run a bot, automate routine messages, or simulate message sending at scheduled intervals.
 </div>
 ---------------------------------------
+
 ## Usage
 
 > npm install
 
 > node bot.js
 
----------------------------------------
+
 
 ## Features
 
