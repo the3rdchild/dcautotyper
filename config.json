@@ -8,7 +8,10 @@
             "kata3": 44104,
             "kata4": 10104,
             "kata5": 10104,
-            "phrases": 10104
+            "phrases": 10104,
+            "terminate": {
+                "timeout": 1820000
+            }
         }
     },
 
