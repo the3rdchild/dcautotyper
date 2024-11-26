@@ -15,6 +15,13 @@ timeTerminate = settings.times.intervals.terminate.timeout; //2820000
 
 setTimeout(() => {
     console.log(`Auto Terminate: ${timeTerminate / 1000 / 60} minutes.`);
+    notifier.notify({
+        title: "Script Termination",
+        message: "Auto Terminate",
+        sound: true,
+        wait: true,
+        appID: "DCAutoTyper",
+    });
     setTimeout(() => {
         process.exit(0);
     }, 1500);
