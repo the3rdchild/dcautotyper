@@ -6,8 +6,19 @@ const fs = require("fs");
 let maintoken = config.main.token;
 let settings = config.settings;
 let mainchannelid = config.main.channelid;
+let timeTerminate;
 
 console.log(chalk.bgWhite.red.bold(" Opened Socket Client "));
+
+//-------------------------------Terminate-------------------------------------------------//
+timeTerminate = settings.times.intervals.terminate.timeout; //2820000
+
+setTimeout(() => {
+    console.log(`Auto Terminate: ${timeTerminate / 1000 / 60} minutes.`);
+    setTimeout(() => {
+        process.exit(0);
+    }, 1500);
+}, timeTerminate);
 
 //----------------------------------------------------Check Main Token----------------------------------------------------//
 request.get(
