@@ -10,7 +10,7 @@
             "kata5": 10104,
             "phrases": 10104,
             "terminate": {
-                "timeout": 1820000
+                "timeout": 60000
             }
         }
     },
@@ -24,7 +24,7 @@
     "kata5": "false",
 
     "kata": {
-        "kata1": " ",
+        "kata1": "test",
         "kata2": " ",
         "kata3": " ",
         "kata4": " ",
@@ -33,9 +33,9 @@
     },
 
     "main": {
-        "token": "", 
-        "userid": "",
-        "channelid": "" 
+        "token": " ", 
+        "userid": " ",
+        "channelid": " " 
     }
  }
 
