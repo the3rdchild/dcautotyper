@@ -10,7 +10,7 @@
             "kata5": 10104,
             "phrases": 10104,
             "terminate": {
-                "timeout": 60000
+                "timeout": 1820000
             }
         }
     },
@@ -24,7 +24,7 @@
     "kata5": "false",
 
     "kata": {
-        "kata1": "test",
+        "kata1": " ",
         "kata2": " ",
         "kata3": " ",
         "kata4": " ",
